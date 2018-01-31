@@ -1,0 +1,235 @@
+/*css reset
+By Yuri 2017-11-28
+*/
+a,
+address,
+b,
+body,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+label,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+  display: block
+}
+
+button,
+body input[type=button],
+input[type=submit] {
+  -webkit-apperance: button;
+  cursor: pointer
+}
+
+input {
+  -webkit-appearance: none
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+  outline: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+ol,
+ul,
+li {
+  list-style: none
+}
+
+img {
+  border: 0;
+  vertical-align: middle
+}
+
+em,
+i,
+u {
+  font-style: normal
+}
+
+html,
+body {
+  height: 100%;
+  background: #F2F3F8;
+  /* font-family: "Microsoft YaHei", "微软雅黑", Arial, Verdana, "宋体"; */
+  font-family: HelveticaNeue, "San Francisco", "Droid Sans";
+}
+
+html {
+  *overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch
+}
+a {
+  text-decoration: none;
+  color: #537CFB
+}
+
+a,
+input,
+button {
+  -webkit-tap-highlight-color: transparent
+}
+
+button,
+input,
+select {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0
+}
+/* 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 31.25%;
+  }
+  .panel ul li {
+    min-height: 106px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 35.15625%;
+  }
+
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 36.6211%;
+  }
+
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 39.0625%;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 40.42969%;
+  }
+
+}
+
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 42.96875%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 46.875%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  html {
+    font-size: 50.78125%;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  html {
+    font-size: 54.6875%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 58.59375%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  html {
+    font-size: 66.40625%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 70.3125%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  html {
+    font-size: 74.21875%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 78.125%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  html {
+    font-size: 93.75%;
+  }
+} */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
