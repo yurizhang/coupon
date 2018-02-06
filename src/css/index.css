@@ -29,7 +29,7 @@ body{
     font-size: 52px;
  }
  .container .textarea{
-    width: 822px;
+    width: 750px;
     margin: 0 auto;
     line-height: 22px;  
  }
@@ -47,28 +47,44 @@ body{
  .container .formarea .phoneNumber{
     background: #FFFFFF;
     border: 1px solid #E1C76D;
-    border-radius: 100px;
-    width:300px;
-    height:50px;
+    border-radius: 8px;
+    width:254px;
+    height:30px;
     font-size: 16px;
-    padding: 15px;
+    padding-left: 15px;
+ }
+ .container .formarea .code{
+    width:127px;
+ }
+ .container .formarea .btn{
+    background-color: #4DD0E2;
+    color: #fff;
+    width:121px;
+
  }
  .container .formarea .operate{
      position: relative;
-     top: -150px;
+     top: -160px;
      left: 0;
+
+     display: flex;
+     margin: 0 auto;
+     justify-content: space-between;
+     align-items: center;
+     width: 440px;
+
+ }
+ .container .formarea .operate .operateFirstDiv p{
+     line-height: 48px;
+ }
+ .container .formarea .codeandBtn{
+    display: flex;
+    justify-content: space-between;
  }
 
  .container .codeArea div{
      text-align: left;
  }
- .container .formarea .codeInput{
-    background: #FFFFFF;
-    border: 1px solid #E1C76D;
-    border-radius: 10px;
-    width: 150px;
-    height: 30px;
-    font-size: 16px;
-    padding: 15px;
-    margin-right: 10px;
- }
+
+/*对话框按钮 居中*/
+ .el-message-box__btns{text-align: center}

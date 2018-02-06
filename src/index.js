@@ -43,7 +43,7 @@ const App=()=>{
           <Logo/>
           <Box/> 
           <div  className="text1 fff">先领券 再分期</div>
-          <div  className="text2 fff">畅玩支付节</div>
+          <div  className="text2 fff">首付出发优惠券</div>
           <Formarea />            
           <div className="text1 fff textarea textLeft">活动规则</div>
           <div className="text3 fff textarea textLeft">
