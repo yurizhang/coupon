@@ -89,9 +89,7 @@ u {
 
 html,
 body {
-  height: 100%;
-  background: #F2F3F8;
-  /* font-family: "Microsoft YaHei", "微软雅黑", Arial, Verdana, "宋体"; */
+   /* font-family: "Microsoft YaHei", "微软雅黑", Arial, Verdana, "宋体"; */
   font-family: HelveticaNeue, "San Francisco", "Droid Sans";
 }
 
